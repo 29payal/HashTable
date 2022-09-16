@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Hashtable
 {
 
-    public class MyMapNode<K,V>
+    internal class MyMapNode<K, V>
     {
         private readonly int size;
         private readonly LinkedList<KeyValue<K, V>>[] items;
