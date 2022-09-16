@@ -10,10 +10,10 @@ namespace Hashtable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to HASH_TABLE");
-            Console.ReadLine();
-
-
+            Console.WriteLine("Hash table demo"); //() []
+            MyMapNode<string, string> hash = new MyMapNode<string, string>(5);
+            hash.Add("0", "To be or not to be");
+            hash.frequencyOfWords("0");
         }
     }
 }
